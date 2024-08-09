@@ -1,0 +1,29 @@
+@media (max-width: 320px){
+    
+    header > img {
+        height: 11em;
+        padding: 15px;
+    }
+    main{
+        font-size: 1em;
+        gap: 25px;
+        
+    }
+    footer {
+        gap: 5px;
+       
+    }
+    .contatos {
+        height: 20px;
+        width: 14em;
+        margin-left: 13%;
+    }
+    .contatos > img {
+        height: 15px;
+    }
+    .contatos > a {
+        font-size: 10px;
+        margin-left: 20px;
+        margin-top: 6px;
+    }
+} 
