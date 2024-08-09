@@ -1,4 +1,14 @@
 @charset "utf=8";
+
+@keyframes icon {
+    5%{
+        transform: scale(0.4);
+    }
+    50%{
+        transform: scale(1);
+    }
+}
+
 body{
     height: 100dvh;
 }
@@ -14,10 +24,11 @@ header{
 }
 
 header > img {
-    border-radius: 40%;
+    border-radius: 50% 10% 50% 10%;
     border:5px solid white;
-    height: 15em;
+    height: 20em;
 }
+
 
 main{
     background-color: rgb(3, 3, 3);
@@ -73,7 +84,7 @@ footer{
     flex-direction: column;
     margin-left: 40px;
     margin-top: 5px;
-    
+    animation: icon 3s infinite ease-in-out;
     
 }
 .contatos > a {

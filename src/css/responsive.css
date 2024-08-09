@@ -1,29 +1,123 @@
 @media (max-width: 320px){
-    
     header > img {
-        height: 11em;
-        padding: 15px;
+        height: 12em;
     }
+
     main{
-        font-size: 1em;
+        font-size: 2.2em;
         gap: 25px;
-        
     }
-    footer {
-        gap: 5px;
-       
+
+    .name{
+        width: 8em;
     }
-    .contatos {
-        height: 20px;
-        width: 14em;
-        margin-left: 13%;
+
+    .studio{
+        width: 8em;
     }
-    .contatos > img {
-        height: 15px;
+
+    .contatos{
+        height: 80px;
+        width: 19em;
     }
-    .contatos > a {
-        font-size: 10px;
-        margin-left: 20px;
-        margin-top: 6px;
+
+    .contatos > img{
+        height: 60px;
     }
-} 
+
+    .contatos > a{
+        font-size: 14px;
+        margin-left: 1em;
+    }
+}
+@media (min-width: 321px) and (max-width: 480px){
+    header > img {
+        height: 15em;
+    }
+
+    main{
+        font-size: 2.5em;
+        gap: 28px;
+    }
+
+    .name{
+        width: 8em;
+    }
+
+    .studio{
+        width: 8em;
+    }
+
+    .contatos{
+        width: 20em;
+    }
+
+    .contatos > img{
+        height: 60px;
+    }
+
+    .contatos > a{
+        font-size: 15px;
+        margin-left: 1em;
+    }
+}
+@media (min-width: 481px) and (max-width: 620px){
+    header > img {
+        height: 17em;
+    }
+
+    main{
+        font-size: 2.5em;
+        gap: 28px;
+    }
+
+    .name{
+        width: 11em;
+    }
+
+    .studio{
+        width: 11em;
+    }
+
+    .contatos{
+        width: 30em;
+    }
+
+    .contatos > img{
+        height: 65px;
+    }
+
+    .contatos > a{
+        font-size: 23px;
+        margin-left: 1em;
+    }
+}
+@media (min-width: 621px) and (max-width: 800px){
+
+    .name{
+        width: 11em;
+    }
+
+    .studio{
+        width: 11em;
+    }
+
+    .contatos{
+        width: 37em;
+    }
+
+}
+@media (min-width: 801px) and (max-width: 912px){
+    .name{
+        width: 15em;
+    }
+
+    .studio{
+        width: 15em;
+    }
+
+    .contatos{
+        width: 50em;
+    }
+}
+  
