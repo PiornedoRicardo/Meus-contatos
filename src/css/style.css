@@ -64,17 +64,18 @@ footer{
     flex-direction: column;
     gap: 8px;
     color: rgb(2, 2, 2); 
-    height: 380px; 
+    height: 450px; 
 }
 
 .contatos{
-    background-color: rgb(243, 238, 238);
+    background-color: rgb(250, 247, 247);
     border-radius: 70px;
     gap: 2px;
     height: 80px;
     display: flex;
     width: 56em;
     align-self: center;
+    box-shadow: 4px 4px 8px rgba(255, 0, 0, 0.493);
     
 }
 
